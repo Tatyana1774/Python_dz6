@@ -15,9 +15,17 @@
 
 # 2 решение
 
-a = int(input('Введите первое число: '))
-d = int(input('Введите шаг: '))
-n = int(input('Введите количество элементов: '))
+# a = int(input('Введите первое число: '))
+# d = int(input('Введите шаг: '))
+# n = int(input('Введите количество элементов: '))
 
-progression = [a + i * d for i in range(n)]
-print(progression)
+# progression = [a + i * d for i in range(n)]
+# print(progression)
+
+# 3 решение
+
+a1 = int(input())
+d = int(input())
+n = int(input())
+for i in range(n):
+    print(a1 + i * d)
